@@ -8,9 +8,9 @@
 # Write by Jolly 2019/12/7
 # last update at 2019/12/19
 
-name: NanoPi-R1s H5 passwall
+ name: NanoPi-R1s H5 passwall
 
-on:
+ on:
   # push:
   #   branches: 
   #     - master
@@ -24,7 +24,7 @@ on:
   watch:
     types: [started]
 
-jobs:
+ jobs:
 
   build:
 
