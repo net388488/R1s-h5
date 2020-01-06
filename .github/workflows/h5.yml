@@ -11,9 +11,9 @@
 name: NanoPi-R1s H5 passwall
 
 on:
-  push:
-    branches: 
-      - master
+  # push:
+  #   branches: 
+  #     - master
 
   # schedule:
   #   - cron: 0 20 * * 5
@@ -21,8 +21,8 @@ on:
   # release:
   #   types: [published]
 
-  # watch:
-  #   types: [started]
+  watch:
+    types: [started]
 
 jobs:
 
